@@ -80,3 +80,6 @@
 ;; they are implemented.
 
 (setq projectile-project-search-path '("~/code/"))
+
+(setq +format-on-save-enabled-modes
+      '(not html-mode))
